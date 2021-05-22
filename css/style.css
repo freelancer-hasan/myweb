@@ -1,0 +1,106 @@
+/* ----------- Global Style ------------ */
+
+.container {
+    max-width: 1290px;
+}
+
+body{
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	background-color: var(--rgb-white);
+	color: var(--rgb-black);
+}
+.dark-theme{
+	--rgb-black:white;
+	--rgb-white:black;
+}
+
+:root{
+	--main-color:#ff4f3b;
+	--box-color:#3bff89;
+	--rgb-black:black;
+	--rgb-white:white;
+}
+
+/* ----------- all design ------- */
+
+/* ----------- navbar design area start ----------- */
+
+a.navbar-brand{
+	font-size: 28px;
+}
+.navbar{
+	opacity: 0.7s;
+	border-bottom: 1px solid var(--box-color);
+}
+.navbar img {
+    width: 50px;
+}
+#navbarNav ul li{
+	margin-left: 10px;
+}
+#navbarNav ul li a{
+	font-size: 25px;
+	color: var(--rgb-black);
+}
+#navbarNav ul li a:hover{
+	color: var(--main-color);
+	transition: 0.3s;
+}
+
+/* ----------- navbar design area end ----------- */
+
+/* -------------- showcase area design start */
+
+section#showcase{
+	height: 74vh;
+	margin-top: 10rem;
+}
+#showcase img {
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: rgb(213 255 202) 0px -2px 17px;
+}
+#showcase .person{
+	text-align: center;
+}
+#showcase h1{
+	font-size: 60px;
+	color: var(--main-color);
+}
+#showcase span{
+	font-size: 2rem;
+	color: var(--box-color);
+}
+#showcase p{
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- media query --------- */
+
+@media(max-width: 768px){
+	.navbar ul{
+		text-align: center;
+	}
+}
+@media(max-width: 768px){
+	#showcase .myname{
+		text-align: center !important;
+	}
+}
